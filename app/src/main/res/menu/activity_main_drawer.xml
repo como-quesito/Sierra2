@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_inicio"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Inicio" />
+
+
+    </group>
+
+    <item android:title="MAPAS"
+        android:icon="@drawable/ic_menu_manage">
+        <menu>
+            <item
+                android:id="@+id/item_mapas"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Zonas a visitar" />
+            <item
+                android:id="@+id/nav_sen"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Google" />
+        </menu>
+    </item>
+    <item android:title="FAUNA">
+        <menu>  <item
+            android:id="@+id/item_reptiles"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Insectos" />
+            <item
+            android:id="@+id/item_insectos"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Reptiles" />
+
+
+            <item
+                android:id="@+id/item_anfibios"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Anfibios" />
+
+            <item
+                android:id="@+id/item_mamiferos"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Mamíferos" />
+            <item
+                android:id="@+id/item_aves"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Aves" />
+
+
+        </menu>
+    </item>
+    <item android:title="VEGETACIÓN">
+        <menu>
+            <item
+                android:id="@+id/item_encinos"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Encinos"
+                />
+
+            <item
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Material Xerofito"
+                android:id="@+id/item_xerofito"></item>
+            <item
+                android:id="@+id/item_matorral_encino"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Matorral encino"   ></item>
+            <item
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Nopalera"
+                android:id="@+id/item_nopalera"   ></item>
+            <item
+                android:id="@+id/item_pastizal"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Pastizal Secundario"   ></item>
+            <item
+                android:id="@+id/item_bosque_cultivado"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Bosque cultivado"    ></item>
+            <item
+                android:title="Otros usos"
+                android:icon="@drawable/ic_menu_gallery"
+                android:id="@+id/item_otros_usos"    >
+            </item>
+        </menu>
+    </item>
+    <item
+        android:title="Sitios a visitar">
+        <menu>
+            <item
+                android:id="@+id/item_parque_ehecatl"
+                android:title="Parque Ehecatl"
+                android:icon="@drawable/ic_menu_gallery">
+            </item>
+            <item
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Coacalco"
+                android:id="@+id/item_centro_ecoturistico_coacalco">
+            </item>
+            <item
+                android:id="@+id/item_centro_educacion_tlalnepantla"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Tlalnepantla"></item>
+            <item
+                android:id="@+id/item_centro_educacion_tultitlan"
+                android:title="Tultitlán"
+                android:icon="@drawable/ic_menu_gallery"></item>
+            <item
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Parajes"
+                android:id="@+id/item_parajes"></item>
+            <item
+                android:icon="@drawable/ic_menu_gallery"
+                android:id="@+id/item_rapel"
+                android:title="Rapel"></item>
+            <item
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Acampar"
+                android:id="@+id/item_acampar"></item>
+            <item
+                android:id="@+id/item_sitios_historicos"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Sitios históricos"></item>
+
+        </menu>
+    </item>
+    <item
+        android:title="Calendario de eventos">
+        <menu>
+            <item
+                android:id="@+id/item_fiestas_representativas"
+                android:title="Fiestas representativas"
+                android:icon="@drawable/ic_menu_send"></item>
+            <item
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Cursos talleres"
+                android:id="@+id/item_cursos_talleres"></item>
+            <item
+                android:id="@+id/item_carreras_atleticas"
+                android:title="Carreras atléticas"
+                android:icon="@drawable/ic_menu_share"></item>
+            <item
+                android:icon="@drawable/ic_menu_gallery"
+                android:id="@+id/item_congreso_lagos"
+                android:title="Congreso lagos"></item>
+        </menu>
+    </item>
+    <item
+        android:title="Sube tu foto">
+        <menu>
+            <item
+                android:title="Especies a conocer"
+                android:icon="@drawable/ic_menu_camera"
+                android:id="@+id/item_especies_deseo_conocer"></item>
+            <item
+                android:id="@+id/item_especies_sierra"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Especies de la sierra"></item>
+        </menu>
+    </item>
+    <item
+        android:title="DIRECTORIO">
+        <menu>
+            <item
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Encargados"
+                android:id="@+id/item_encargados_parque"></item>
+            <item
+                android:title="Apoyo"
+                android:id="@+id/item_apoyo"
+                android:icon="@drawable/ic_menu_slideshow"></item>
+            <item
+                android:icon="@drawable/ic_menu_gallery"
+                android:id="@+id/item_sociedad_civil"
+                android:title="Sociedad civil"></item>
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/item_creditos"
+        android:title="Créditos"
+        android:icon="@drawable/ic_menu_camera">
+
+    </item>
+
+</menu>
+
